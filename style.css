@@ -1,0 +1,30 @@
+.container-fluid{
+    display: flex;
+    margin-top: 50px;
+}
+
+form > li, body > li {
+    list-style-type: none;
+}
+
+.container-fluid > li{
+    list-style-type: none;
+}
+.item-name{
+    /* padding: 0; */
+    display: inline;
+}
+
+#itemss{
+    display: flex;
+    align-items: left;
+    justify-content: space-between;
+    padding: 0;
+    margin-bottom: 10px;
+    /* white-space: nowrap; */
+    }
+    
+    
+   .editItem, .deleteItem{
+       /* display: inline-block; */
+   }

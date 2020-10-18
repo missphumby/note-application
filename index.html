@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>noteapp</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+</head>
+
+<body>
+    <form id="firstgroup">
+        <a id="close">x</a>
+        <div class="container-fluid">
+            <li>
+                <p style="font-size: 18px; margin-right: 10px;">content:</p>
+            </li>
+            <span id="textbox" style="height: 100px; width: 150px;">
+                <textarea id="boxvalue"></textarea>
+            </span>
+        </div>
+        <li><button id="submit" style="padding-top: 0;">Submit</button></li>
+    </form>
+    <li><button id="addnote" style="margin-top: 15px;">Add Note</button></li>
+    <h3 style="margin-left: 20px;">ID &nbsp; &nbsp; &nbsp; &nbsp; Content</h3>
+    <!-- <form id="formss"> -->
+
+    <div>
+        <ol id="itemlist" style="width: 20%;">
+            <span id="itemss">
+                <li>
+                    <p class="item-name">Sample Note Content</p>
+                </li> 
+<span id="buttongroup">
+                <button class="editItem">Edit</button>
+                <button class="deleteItem">Delete</button></span>
+            </span>
+        </ol>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
